@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  bmi-calculator:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+    restart: unless-stopped
+    # volumes:
+    #   - .:/app
+    stdin_open: true
+    tty: true
