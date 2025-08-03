@@ -50,7 +50,7 @@ st.markdown("""
 
 # Header
 st.markdown('<h1 class="main-header">BMI Calculator & Style Advisor</h1>', unsafe_allow_html=True)
-st.markdown("### Get your BMI calculated with sassy (not for the feint of heart) commentary and fashion advice!")
+st.markdown("### Get your BMI calculated with sassy (not for the weak of heart) commentary and fashion advice!")
 
 # Input section
 st.markdown("---")
